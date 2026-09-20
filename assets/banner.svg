@@ -1,0 +1,67 @@
+<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 42px; fill: url(#text-grad); }
+      .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 18px; fill: #94a3b8; }
+      .tag { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #38bdf8; }
+      
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) scale(1); opacity: 0.3; }
+        50% { transform: translateY(-15px) scale(1.1); opacity: 0.8; }
+        100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      }
+      @keyframes pulseLine {
+        0% { stroke-dashoffset: 600; opacity: 0.2; }
+        50% { stroke-dashoffset: 0; opacity: 0.8; }
+        100% { stroke-dashoffset: -600; opacity: 0.2; }
+      }
+      .particle { animation: floatParticle 6s ease-in-out infinite; }
+      .p1 { animation-delay: 0s; }
+      .p2 { animation-delay: 2s; }
+      .p3 { animation-delay: 4s; }
+      .chart-line { stroke-dasharray: 600; animation: pulseLine 8s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="220" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Dynamic Background Chart Elements (Behind Text) -->
+  <g opacity="0.25">
+    <path class="chart-line" d="M 50 180 Q 200 120 400 150 T 750 80 T 1150 40" fill="none" stroke="#6366f1" stroke-width="4"/>
+    <path class="chart-line" d="M 50 190 Q 300 160 550 110 T 900 130 T 1150 70" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  </g>
+
+  <!-- Dynamic Floating Glowing Circles (Background) -->
+  <circle class="particle p1" cx="150" cy="60" r="4" fill="#38bdf8" filter="url(#glow)"/>
+  <circle class="particle p2" cx="1050" cy="160" r="6" fill="#c084fc" filter="url(#glow)"/>
+  <circle class="particle p3" cx="900" cy="50" r="5" fill="#818cf8" filter="url(#glow)"/>
+  <circle class="particle p1" cx="300" cy="180" r="4" fill="#818cf8" filter="url(#glow)"/>
+
+  <!-- Foreground Content (Text and Badges) -->
+  <g transform="translate(60, 0)">
+    <!-- Category Tag -->
+    <rect x="0" y="42" width="220" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="110" y="59" text-anchor="middle" class="tag">INVESTOR RELATIONS TECH</text>
+
+    <!-- Title -->
+    <text x="0" y="115" class="title">Awesome Investor Relations Platform 🚀</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="155" class="subtitle">Curated Investor CRM, LP Portals, Cap Table Management & Portfolio Intelligence Software</text>
+  </g>
+</svg>

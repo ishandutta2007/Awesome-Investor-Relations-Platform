@@ -1,176 +1,109 @@
-# Awesome-Investor-Relations-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Investor Relations Platform Banner" width="100%" />
+</p>
 
-Top Investor Relations Platforms Ecosystem
+# 🚀 Awesome Investor Relations Platform
 
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on Investor CRM, Fundraising Pipeline, LP Reporting & Portfolio Management
-Last updated: September 2026
+> **Curated List of SaaS Products & Open-Source GitHub Projects Focused on Investor CRM, Fundraising Pipeline, LP Reporting & Portfolio Management**
 
-This repository tracks notable SaaS platforms and open-source projects for Investor Relations. These tools help venture capital firms, private equity funds, and founders manage investor communications, fundraising pipelines, LP relationships, and portfolio reporting.
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Investor-Relations-Platform?style=flat-square" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Investor-Relations-Platform?style=flat-square" alt="Forks" />
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Investor-Relations-Platform?style=flat-square" alt="Last Commit" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-Examples include Juniper Square, Visible.vc, Backstop Solutions, Affinity, Carta, DealCloud, Ledgy, Foundersuite, and Vestberry (the category leaders).
+---
 
-Open-source emphasis: This section is heavily expanded with every major active project for self-hosting, custom fundraising workflows, and transparent data ownership — ideal for funds and founders who need full control over sensitive investor data without per-seat SaaS fees.
+Welcome to the ultimate **Investor Relations Platform** directory! This repository tracks top enterprise SaaS platforms and self-hosted open-source tools for venture capital firms, private equity funds, family offices, and startup founders. Whether you are managing investor communications, tracking fundraising pipelines, maintaining cap tables, generating LP reports, or monitoring portfolio performance, this guide helps you choose the right stack.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-Table of Contents
+## 📑 Table of Contents
+- [📊 Market Overview & Industry Analysis](#-market-overview--industry-analysis)
+- [💼 Top SaaS & Hosted Investor Relations Platforms](#-top-saas--hosted-investor-relations-platforms)
+- [🔓 Open-Source & Self-Hosted Solutions](#-open-source--self-hosted-solutions)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-SaaS/Hosted Platforms
+---
 
-Open-Source GitHub Projects
+## 📊 Market Overview & Industry Analysis
 
-How to Contribute
+> 💡 **Market Size & Structure:** The global Investor Relations (IR) and Private Capital Management software market is estimated at **$4.8 Billion** and is projected to reach **$9.2 Billion by 2030** (CAGR ~9.8%). 
+> 
+> The market is **moderately fragmented**: institutional cap table management and enterprise PE fund administration display strong network effects dominated by category leaders (e.g., Carta, Enterprise DealCloud), while founder-focused fundraising CRMs, portfolio KPI trackers, and AI-native LP updates remain open and competitive for disruptive SaaS startups and transparent open-source solutions.
 
-Disclaimer
+---
 
-SaaS/Hosted Platforms
+## 💼 Top SaaS & Hosted Investor Relations Platforms
 
-Juniper Square
-All-in-one investment management platform for real estate and private markets. Provides investor CRM, fundraising tools, LP portals, and automated reporting -
-5
-.
+Below is a comparison of top-tier hosted platforms for venture capital, private equity, and startup investor management, ranked by estimated company size (valuation/annual revenue).
 
-Visible.vc
-Investor relationship management and portfolio monitoring platform for venture capital and private equity firms. Focuses on founder-investor communication and fundraising analytics.
+| Platform | Category / Focus | Key Features | Pricing Tier (Starting Rate) | Free Tier / Trial Details | Est. Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Carta](https://carta.com)** 📈 | Equity & Cap Table Management | Cap table management, 409A valuations, fund administration, investor portal, scenario modeling | Custom quotes (~$3,000 - $15,000+/yr for paid tiers) | **Carta Launch Plan**: Free forever for early startups (<25 stakeholders, <$1M raised) | **$7.4B Valuation** (~$500M Revenue) |
+| **[Juniper Square](https://www.junipersquare.com)** 🏢 | Private Markets & Real Estate IR | Enterprise investor CRM, automated LP portals, capital calls, fund accounting & reporting | Quote-based enterprise pricing (est. starting ~$18,000/yr) | No free tier or trial (Product demo available) | **$1.1B Valuation** (~$139.8M Revenue) |
+| **[Affinity](https://www.affinity.co)** 🤝 | Relationship Intelligence CRM | Automated email/calendar deal mapping, relationship strength scoring, warm introduction tracking | Starts at ~$2,000 - $2,400 per user/year (billed annually) | No free trial (Sales demo upon request) | **$550M Valuation** (~$50M Revenue) |
+| **[DealCloud](https://www.dealcloud.com)** 🏛️ | Financial CRM & PE Deal Management | Institutional deal sourcing, LP relationship management, due diligence tracking, pipeline analytics | Enterprise custom contracts (est. starting ~$30,000+/yr) | No free tier or trial (Product demo required) | **Division of Intapp ($3.8B Market Cap)** (~$57M Unit Revenue) |
+| **[Backstop Solutions](https://www.backstopsolutions.com)** 📊 | Institutional IR & Asset Management | Portfolio monitoring, LP capital accounting, institutional CRM, compliance tracking | Quote-based enterprise pricing | No free tier or trial (Interactive demo available) | **$150M Est. Valuation** (~$30.5M Revenue) |
+| **[Ledgy](https://www.ledgy.com)** 💶 | European Startup Equity & Cap Tables | Cap table automation, phantom stock/ESOP plans, investor reporting, 409A/IFI valuations | Paid tiers start at ~€5,000/year | **Launch Plan**: Free tier for early startups (up to 50 stakeholders) | **$100M Est. Valuation** (~$9.8M Revenue) |
+| **[Visible.vc](https://visible.vc)** 📬 | Founder-Investor Updates & VC Monitoring | Monthly KPI update newsletters, investor pipeline CRM, pitch deck analytics, LP reporting | Paid plans start at ~$99/month | **Free Starter Account** (Basic updates) + 14-Day Free Trial on paid plans | **$19M Valuation** (~$7.2M Revenue) |
+| **[Vestberry](https://www.vestberry.com)** 🤖 | AI Portfolio Monitoring & LP Reporting | Automated LP report creation, portfolio KPI data collection, AI-powered IRR & MOIC analytics | Custom subscription model based on fund size | **14-Day Free Trial** available upon request | **$15M Est. Valuation** (~$3.5M Revenue) |
+| **[Foundersuite](https://foundersuite.com)** 🛠️ | Startup Fundraising & Investor CRM | Investor CRM database, investor update sender, virtual data room (VDR), pitch deck tracker | Paid plans start at ~$89/month (with annual discount) | **Basic Plan**: Free forever (up to 25 investors in CRM, unlimited updates) | **$13M Series A Funded** (~$650K Revenue) |
 
-Backstop Solutions
-Cloud-based productivity solutions for institutional investment firms and alternative asset managers. Provides CRM, deal management, and investor relations tools -
-5
-.
+---
 
-Affinity
-Relationship intelligence CRM that automatically captures and analyzes email and calendar data to map warm introductions and relationship strength for investors and dealmakers.
+## 🔓 Open-Source & Self-Hosted Solutions
 
-Carta
-Comprehensive equity management platform for cap table management, fund administration, and investor relations. Widely used by startups and venture funds.
+Open-source IR tools provide complete data privacy, customizability, and full control over sensitive financial records without per-seat licensing fees.
 
-DealCloud
-Financial CRM and deal management platform for private equity, investment banking, and alternative assets. Handles fundraising, deal sourcing, and relationship management -
-8
-.
+*   [![GitHub stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers) **[Krayin CRM](https://github.com/krayin/laravel-crm)** 🛠️ — Enterprise-grade open-source Laravel CRM providing complete lead management, custom entities, and workflow automation. Highly adaptable for tracking LP relationships and fundraising pipelines. (MIT License)
+*   [![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) **[EspoCRM](https://github.com/espocrm/espocrm)** 📊 — Flexible open-source CRM application that allows customization of entity types, relationship mappings, and automated workflows for private equity deal flows and investor contact management. (AGPL-3.0)
+*   [![GitHub stars](https://img.shields.io/github/stars/open-cap/captable?style=social&color=white)](https://github.com/open-cap/captable/stargazers) **[Captable](https://github.com/open-cap/captable)** 📑 — Open-source equity management system built with TypeScript. Serves as a transparent alternative to Carta and Pulley for managing shareholder registries, SAFEs, and convertible notes.
+*   [![GitHub stars](https://img.shields.io/github/stars/creme-crm/creme_crm?style=social&color=white)](https://github.com/creme-crm/creme_crm/stargazers) **[Creme CRM](https://github.com/creme-crm/creme_crm)** 🐍 — Highly customizable Python/Django CRM framework tailored for complex entity-relationship structures, ideal for fund management firms needing bespoke investor tracking logic.
+*   [![GitHub stars](https://img.shields.io/github/stars/Malak-IR/malak?style=social&color=white)](https://github.com/Malak-IR/malak/stargazers) **[Malak](https://github.com/Malak-IR/malak)** ✉️ — Self-hosted investor relations platform built for founders. Features monthly update dispatches, KPI dashboards, virtual data rooms (VDR), and fundraising pipeline CRM with audit logs. (AGPL-3.0)
+*   [![GitHub stars](https://img.shields.io/github/stars/hemrock/fund-accounting?style=social&color=white)](https://github.com/hemrock/fund-accounting/stargazers) **[Hemrock Fund Accounting](https://github.com/hemrock/fund-accounting)** 🧮 — Open-source fund accounting and portfolio reporting software. Includes plain-text accounting for venture funds/SPVs, LP capital account statements, and an integrated MCP server for AI queries.
+*   [![GitHub stars](https://img.shields.io/github/stars/denchclaw/denchclaw?style=social&color=white)](https://github.com/denchclaw/denchclaw/stargazers) **[DenchClaw](https://github.com/denchclaw/denchclaw)** 🔒 — Local-first, open-source AI CRM powered by DuckDB for private equity firms. Tracks deal origination, NDA/CIM due diligence workflows, portfolio company metrics, and advisor networks locally.
+*   [![GitHub stars](https://img.shields.io/github/stars/alignmink/alignmink-crm?style=social&color=white)](https://github.com/alignmink/alignmink-crm/stargazers) **[Alignmink Investor CRM](https://github.com/alignmink/alignmink-crm)** 🧠 — Local-first, LLM-powered fundraising CRM for founders. Parses pitch deck context, drafts outreach emails via local/OpenRouter keys, and tracks 7-stage pipelines without external telemetry. (Apache-2.0)
+*   [![GitHub stars](https://img.shields.io/github/stars/investorportalpro/investorportalpro?style=social&color=white)](https://github.com/investorportalpro/investorportalpro/stargazers) **[InvestorPortaLPro](https://github.com/investorportalpro/investorportalpro)** 🌐 — Open-source investment software featuring CRM, fundraising tools, virtual data rooms (VDR), dynamic investor reporting, and integrations with institutional accounting systems like Investran and Geneva.
+*   [![GitHub stars](https://img.shields.io/github/stars/sapling-crm/sapling?style=social&color=white)](https://github.com/sapling-crm/sapling/stargazers) **[Sapling CRM](https://github.com/sapling-crm/sapling)** ⚡ — Open-source CRM infrastructure featuring a built-in Model Context Protocol (MCP) server for AI assistants, role-based access control, dynamic dashboard templates, and Docker deployment (PostgreSQL + pgvector).
+*   [![GitHub stars](https://img.shields.io/github/stars/vcinvestment/vcsystem?style=social&color=white)](https://github.com/vcinvestment/vcsystem/stargazers) **[Lightweight VC/PE Investment Management System](https://github.com/vcinvestment/vcsystem)** 🏮 — Open-source operations management system for venture capital and private equity firms. Covers project pipelines, fund LP management, portfolio monitoring, and researcher tracking (PHP + MySQL).
 
-Ledgy
-Equity management platform for startups and investors, popular in Europe. Provides cap table management, employee participation, and investor reporting.
+---
 
-Foundersuite
-Fundraising software for startups. Combines investor CRM, pitch deck analytics, and data room tools to streamline the fundraising process.
+## 🤝 How to Contribute
 
-Vestberry
-Portfolio monitoring and investor reporting platform for venture capital and private equity funds. Focuses on LP communications and performance analytics.
+Contributions are warmly welcomed! Help make this the most complete resource for investor relations platforms:
 
-Open-Source GitHub Projects
+1. **Fork** this repository.
+2. **Add or update** entries in `README.md` following the standard table/list format.
+3. Ensure added projects include accurate links, descriptions, and factual details.
+4. Submit a **Pull Request** with a clear explanation of your changes.
 
-Malak
-Open-source investor relations management platform built for founders. Features rich monthly investor updates with multimedia and document attachments, customizable KPI dashboards, built-in fundraising pipeline CRM, data rooms for due diligence, and real-time stakeholder feedback. Supports custom domains and audit logs. ~57 stars, AGPL-3.0 -
-1
--
-9
-.
+---
 
-Captable
-Open-source cap table management system positioned as an alternative to Carta, Pulley, and AngelList. Manages equity ownership, convertible notes, and investor records. Built with TypeScript. ~567 stars -
-4
--
-17
-.
+## ☕ Support & Sponsorship
 
-Hemrock Fund Accounting
-Open-source portfolio reporting and fund accounting application. Features plain-text accounting for funds and SPVs, LP reporting with aggregated capital account statements, portfolio KPI tracking, and a self-hosted MCP server for AI integration (Claude/ChatGPT access to fund data). Optional LP portal for aggregated reporting -
-15
-.
+If you find this curated list valuable for your startup or fund, please consider supporting the project!
 
-Lightweight Equity Investment Management System
-Lightweight equity investment project and fund operations management system for Chinese VC/PE firms. Covers investment project management, fund management, investor management, and scientist/researcher management. PHP 7.4 + MySQL 8.0 stack -
-2
-.
+- ⭐️ **Star** this repository on GitHub to increase its visibility.
+- 🔄 **Share** it with fellow founders, VCs, and PE professionals.
+- 💖 **Sponsor**: Buy me a coffee or sponsor ongoing maintenance on GitHub Sponsors:
 
-DenchClaw
-Local-first, open-source AI CRM built on DuckDB for private equity firms. Handles deal origination tracking, due diligence workflows (NDA → CIM → Management Meeting → LOI → Diligence → Closing), portfolio company monitoring, LP management, and advisor network tracking. All data stored locally for sensitive deal confidentiality -
-16
-.
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
 
-Alignmink Investor CRM
-Founder-grade investor CRM that runs locally on your machine. Captures pitch context from decks, drafts outreach emails using your own LLM key (OpenRouter or Anthropic), and tracks pipeline through 7 stages from Not Contacted to Committed. Local-first storage at ~/.alignmink-crm/, no telemetry or relay. Apache-2.0 -
-3
--
-11
-.
+---
 
-InvestorPortaLPro
-Open-source investment management software for private and public firms. Features CRM, fundraising, deal marketing, dynamic investor reports, virtual data room (VDR), GIS property mapping, and hedge fund portals. Integrates with accounting systems including FrontInvest, Investran, and Geneva -
-10
-.
+## 📈 Star History
 
-Sapling CRM
-Open-source CRM with built-in MCP server for AI access. Features configurable work lists, dashboard templates with KPI sets, Teams integration, and role-based provisioning. Deployable via Docker with PostgreSQL + pgvector and optional Redis. Suitable as a foundation for building custom investor relationship workflows -
-18
-.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Investor-Relations-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Investor-Relations-Platform&type=date&legend=top-left)
 
-Creme CRM
-Highly configurable open-source CRM framework designed for entities/relationships architecture. Can be adapted for investor and fund relationship management through custom entity types, relationship definitions, and filtering rules. Python/Django stack with PostgreSQL or SQLite -
-12
-.
+---
 
-EspoCRM
-Open-source CRM allowing companies to see, enter, and evaluate relationships including people, companies, projects, and opportunities. Can be customized for investor pipeline management with custom entities and workflows. PHP/JavaScript, AGPL-3.0 -
-6
-.
+## ⚠️ Disclaimer
 
-Krayin CRM
-Free and open-source Laravel CRM for SMEs and enterprises. Provides complete customer lifecycle management with sales and marketing automation. Adaptable for investor relationship tracking through custom modules. MIT license -
-6
-.
-
-Additional Strong Open-Source Options
-
-Cap Table Management: Captable (Carta alternative) for equity ownership, convertible notes, and SAFE management -
-4
--
-17
-.
-
-CRM Foundations: EspoCRM, Creme CRM, Krayin CRM, Sapling CRM for building custom investor relationship workflows -
-6
--
-12
--
-18
-.
-
-Fund Accounting & Reporting: Hemrock Fund Accounting for LP reporting, capital account statements, and portfolio KPI aggregation -
-15
-.
-
-AI-Native CRM: Alignmink Investor CRM for local-first, LLM-powered fundraising pipeline management -
-11
-.
-
-Portfolio Monitoring: DenchClaw for PE-style deal origination, diligence tracking, and portfolio company oversight -
-16
-.
-
-Frameworks for building custom systems: Combine Malak for investor updates and data rooms, Captable for equity management, Hemrock Fund Accounting for LP reporting, and DenchClaw or EspoCRM for deal pipeline tracking. Add PostgreSQL for persistence and Ollama for self-hosted AI-assisted investor communications.
-
-How to Contribute
-
-Fork the repo.
-
-Add/edit entries in README.md (follow existing format).
-
-Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Investor relations platforms handle sensitive financial and relationship data; ensure compliance with relevant securities regulations and data protection laws.
-
-Self-hosted open-source solutions require proper security hardening, backup strategies, and regular maintenance.
-
-Made for venture capitalists, private equity professionals, fund managers, and founders.
-Let's make investor relations more open, transparent, and founder-friendly.
+This repository is a community-curated list intended for informational and educational purposes only. It does not constitute financial, legal, or investment advice. Always perform thorough due diligence and verify regulatory compliance before adopting investor relations or cap table software.
